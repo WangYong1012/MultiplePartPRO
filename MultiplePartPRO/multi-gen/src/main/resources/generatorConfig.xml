@@ -7,7 +7,7 @@
 	<classPathEntry 
 			location="E:/IDEWorkSpace/NO_001/accountService/WebContent/WEB-INF/lib/mysql-connector-java-5.1.32.jar"/>
     <context id="my" targetRuntime="MyBatis3">
-    	<plugin type="org.alex.mybatis.common.plugin.PaginationPlugin" />
+    	<!--<plugin type="org.alex.mybatis.common.plugin.PaginationPlugin" />-->
         <commentGenerator>
             <property name="suppressDate" value="false"/>
             <property name="suppressAllComments" value="true"/>
