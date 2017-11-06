@@ -1,0 +1,65 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <parent>
+        <artifactId>MultiplePartPRO</artifactId>
+        <groupId>cn.brave</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>multi-web</artifactId>
+    <packaging>war</packaging>
+    <name>multi-web Maven Webapp</name>
+    <url>http://maven.apache.org</url>
+    <dependencies>
+        <!-- 实体类 -->
+        <dependency>
+            <groupId>cn.brave</groupId>
+            <artifactId>multi-entity</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <!-- 逻辑层 -->
+        <dependency>
+            <groupId>cn.brave</groupId>
+            <artifactId>multi-biz</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <!-- 核心类 -->
+        <dependency>
+            <groupId>cn.brave</groupId>
+            <artifactId>multi-core</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>3.8.1</version>
+            <scope>test</scope>
+        </dependency>
+        <!-- 数据持久 -->
+        <dependency>
+            <groupId>cn.brave</groupId>
+            <artifactId>multi-dao</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+    
+    <!-- 实际执行者 -->
+    <build>
+        <finalName>multi-web</finalName>
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+                <includes>
+                    <include>**.*</include>
+                </includes>
+            </resource>
+            <resource>
+                <directory>src/main/java</directory>
+                <includes>
+                    <include>**/*.xml</include>
+                </includes>
+            </resource>
+        </resources>
+    </build>
+    
+</project>
