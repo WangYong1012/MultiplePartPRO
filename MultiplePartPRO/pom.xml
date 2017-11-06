@@ -12,6 +12,7 @@
         <module>multi-biz</module>
         <module>multi-entity</module>
         <module>multi-web</module>
+        <module>multi-gen</module>
     </modules>
     <!-- This is parent node -->
     <packaging>pom</packaging>

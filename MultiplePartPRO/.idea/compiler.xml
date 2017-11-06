@@ -10,6 +10,7 @@
         <module name="multi-core" />
         <module name="multi-dao" />
         <module name="multi-entity" />
+        <module name="multi-gen" />
         <module name="multi-web" />
       </profile>
     </annotationProcessing>
@@ -18,6 +19,7 @@
       <module name="multi-core" target="1.8" />
       <module name="multi-dao" target="1.8" />
       <module name="multi-entity" target="1.8" />
+      <module name="multi-gen" target="1.8" />
       <module name="multi-web" target="1.8" />
       <module name="MultiplePartPRO" target="1.8" />
       <module name="multiweb" target="1.5" />
