@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/multi-core/multi-core.iml" filepath="$PROJECT_DIR$/multi-core/multi-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/multi-dao/multi-dao.iml" filepath="$PROJECT_DIR$/multi-dao/multi-dao.iml" />
       <module fileurl="file://$PROJECT_DIR$/multi-entity/multi-entity.iml" filepath="$PROJECT_DIR$/multi-entity/multi-entity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/multi-gen/multi-gen.iml" filepath="$PROJECT_DIR$/multi-gen/multi-gen.iml" />
       <module fileurl="file://$PROJECT_DIR$/multi-web/multi-web.iml" filepath="$PROJECT_DIR$/multi-web/multi-web.iml" />
     </modules>
   </component>
