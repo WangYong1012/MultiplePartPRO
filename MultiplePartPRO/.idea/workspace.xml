@@ -7,12 +7,460 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ea3885c-f61d-4b23-b1e0-55877c5a1d2f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/multi-web/src/main/java/cn/brave/web/anno/OwnAnnotation.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/multi-web/src/main/java/cn/brave/web/anno/OwnAnnotationConfigure.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/multi-web/src/main/java/cn/brave/web/anno/UserCenter.java" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/annotation/Ehcache.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/annotation/JeecgEntityTitle.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/annotation/config/AutoMenu.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/annotation/config/AutoMenuOperation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/annotation/config/MenuCodeType.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/annotation/query/QueryTimeFormat.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/constant/DataBaseConstant.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/constant/Globals.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/easyui/AuthFilterTag.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/easyui/AutocompleteTag.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/easyui/BaseTag.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/easyui/ChooseTag.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/easyui/CkeditorTag.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/easyui/ColorChangeTag.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/easyui/ComboBoxTag.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/easyui/ComboTreeTag.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/easyui/DataGridColumnTag.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/easyui/DataGridConfOptTag.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/easyui/DataGridDefOptTag.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/easyui/DataGridDelOptTag.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/easyui/DataGridFunOptTag.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/easyui/DataGridOpenOptTag.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/easyui/DataGridTag.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/easyui/DataGridToolBarTag.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/easyui/DepartSelectTag.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/easyui/DictSelectTag.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/easyui/FormValidationTag.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/easyui/HasPermissionTag.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/easyui/MenuTag.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/easyui/MutiLangTag.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/easyui/OrgSelectTag.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/easyui/PagerUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/easyui/SelectZTreeTag.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/easyui/TabTag.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/easyui/TabsTag.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/easyui/TagUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/easyui/UploadTag.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/easyui/UserSelectTag.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/easyui/WebUploaderTag.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/enums/OnlineGenerateEnum.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/enums/SysACEIconEnum.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/enums/SysDatabaseEnum.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/enums/SysThemesEnum.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/extend/datasource/DataSourceContextHolder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/extend/datasource/DataSourceType.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/extend/datasource/DynamicDataSource.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/extend/hqlsearch/HqlGenerateUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/extend/hqlsearch/SysContextSqlConvert.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/extend/hqlsearch/parse/ObjectParseUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/extend/hqlsearch/parse/PageValueConvertRuleEnum.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/extend/hqlsearch/parse/vo/HqlParseEnum.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/extend/hqlsearch/parse/vo/HqlRuleEnum.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/extend/sqlsearch/SqlGenerateUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/extend/swftools/ConStant.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/extend/swftools/DocConverter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/extend/swftools/OpenOfficePDFConverter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/extend/swftools/PDFConverter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/extend/swftools/SWFConverter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/extend/swftools/SWFToolsSWFConverter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/extend/swftools/StreamGobbler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/extend/swftools/SwfToolsUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/extend/template/Caculator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/extend/template/DataSourceMap.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/extend/template/Template.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/util/ApplicationContextUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/util/BrowserType.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/util/BrowserUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/util/ContextHolderUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/util/DBTypeUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/util/DateUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/util/DynamicDBUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/util/EhcacheUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/util/ExceptionUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/util/ExceptionUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/util/FileUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/util/FormUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/util/GenericsUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/util/IdcardUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/util/ImportUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/util/IpConfigMac.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/util/IpUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/util/JSONHelper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/util/JeecgDataAutorUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/util/JeecgSqlUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/util/LdapUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/util/ListUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/util/ListtoJson.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/util/ListtoMenu.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/util/LogUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/util/MutiLangSqlCriteriaUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/util/MutiLangUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/util/MyBeanUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/util/MyClassLoader.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/util/NumberComparator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/util/PasswordUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/util/PinyinUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/util/PluginConfigCreator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/util/PropertiesUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/util/ReflectHelper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/util/ResourceUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/util/RoletoJson.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/util/SendMailUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/util/SetListSort.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/util/SqlUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/util/StreamUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/util/StringUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/util/SysThemesUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/util/SystemPath.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/util/ToEntityUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/util/UUIDGenerator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/util/UploadUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/util/YouBianCodeUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/util/ZipUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/util/oConvertUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/vo/datatable/ColumnInfo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/vo/datatable/DataTableReturn.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/vo/datatable/DataTables.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/vo/datatable/FilterInfo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/vo/datatable/SortDirection.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/vo/datatable/SortInfo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/vo/easyui/Autocomplete.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/vo/easyui/Carousel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/vo/easyui/ColumnValue.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/vo/easyui/ComboTreeModel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/vo/easyui/DataGridColumn.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/vo/easyui/DataGridUrl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/vo/easyui/DropDownMenu.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/vo/easyui/OptTypeDirection.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/vo/easyui/SortColumn.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/vo/easyui/Tab.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/vo/easyui/TabMenu.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/vo/easyui/TreeGridModel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/vo/easyui/TreeSelect.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgdynamgraph/controller/CgDynamGraphConfigHeadController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgdynamgraph/controller/CgDynamGraphController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgdynamgraph/dao/core/CgDynamGraphDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgdynamgraph/engine/core/cgDynamGraphDesign.ftl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgdynamgraph/engine/core/cgDynamGraphDesignMobile.ftl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgdynamgraph/entity/core/CgDynamGraphConfigHeadEntity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgdynamgraph/entity/core/CgDynamGraphConfigItemEntity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgdynamgraph/entity/core/CgDynamGraphConfigParamEntity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgdynamgraph/page/core/CgDynamGraphConfigHeadPage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgdynamgraph/service/core/CgDynamGraphConfigHeadServiceI.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgdynamgraph/service/core/CgDynamGraphServiceI.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgdynamgraph/service/impl/core/CgDynamGraphConfigHeadServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgdynamgraph/service/impl/core/CgDynamGraphServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgdynamgraph/sql/core/CgDynamGraphDao_queryCgDynamGraphItems.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgdynamgraph/sql/core/CgDynamGraphDao_queryCgDynamGraphMainConfig.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/common/CgAutoListConstant.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/common/CommUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/common/FormHtmlUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/common/OfficeHtmlUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/common/spring-mvc-cgform.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/controller/autolist/CgAutoListController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/controller/build/CgFormBuildController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/controller/build/CgFormDataController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/controller/build/CgformSqlController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/controller/button/CgformButtonController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/controller/button/CgformButtonSqlController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/controller/cgformftl/CgformFtlController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/controller/config/CgFormHeadController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/controller/config/CgFormIndexController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/controller/enhance/CgformEnhanceJavaController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/controller/enhance/CgformEnhanceJsController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/controller/excel/ExcelTempletController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/controller/generate/GenerateController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/controller/template/CgformTemplateController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/controller/trans/CgformTransController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/controller/upload/CgUploadController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/dao/config/CgFormFieldDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/dao/config/CgFormVersionDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/dao/upload/CgFormUploadDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/engine/DBTempletLoader.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/engine/FreemarkerHelper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/engine/TempletContext.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/engine/autolist/autolist.ftl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/engine/demo.ftl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/engine/hibernate/tableTemplate.ftl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/engine/jform.ftl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/engine/jformhead.ftl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/engine/jformonetomany.ftl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/engine/jformonetomanytpl.ftl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/engine/jformonetoone.ftl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/engine/jformunion.ftl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/engine/tag/DictDataTag.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/engine/tag/MutiLangTag.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/enhance/CgformEnhanceJavaInter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/enhance/CgformJavaInterDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/entity/autolist/AutoFieldEntity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/entity/button/CgformButtonEntity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/entity/button/CgformButtonSqlEntity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/entity/cgformftl/CgformFtlEntity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/entity/config/CgFormFieldEntity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/entity/config/CgFormFieldVO.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/entity/config/CgFormHeadEntity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/entity/config/CgFormIndexEntity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/entity/config/CgSubTableVO.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/entity/consts/DataBaseConst.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/entity/enhance/CgformEnhanceJavaEntity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/entity/enhance/CgformEnhanceJsEntity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/entity/generate/GenerateEntity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/entity/generate/GenerateSubListEntity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/entity/template/CgformTemplateEntity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/entity/upload/CgUploadEntity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/exception/BusinessException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/exception/DBException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/interceptors/CgFormVersionInterceptor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/pojo/config/CgFormFieldPojo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/pojo/config/CgFormHeadPojo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/pojo/config/CgFormIndexPojo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/service/autolist/CgTableServiceI.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/service/autolist/ConfigServiceI.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/service/build/DataBaseService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/service/button/CgformButtonServiceI.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/service/button/CgformButtonSqlServiceI.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/service/cgformftl/CgformFtlServiceI.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/service/config/CgFormFieldServiceI.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/service/config/CgFormIndexServiceI.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/service/config/DbTableHandleI.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/service/config/DbTableServiceI.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/service/enhance/CgformEnhanceJavaServiceI.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/service/enhance/CgformEnhanceJsServiceI.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/service/excel/ExcelTempletService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/service/impl/autolist/CgTableServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/service/impl/autolist/ConfigServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/service/impl/build/DataBaseServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/service/impl/button/CgformButtonServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/service/impl/button/CgformButtonSqlServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/service/impl/cgformftl/CgformFtlServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/service/impl/config/CgFormFieldServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/service/impl/config/CgFormIndexServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/service/impl/config/DbTableMysqlHandleImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/service/impl/config/DbTableOracleHandleImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/service/impl/config/DbTablePostgresHandleImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/service/impl/config/DbTableServiceMysqlImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/service/impl/config/TableSQLServerHandleImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/service/impl/config/util/ColumnMeta.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/service/impl/config/util/DbTableProcess.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/service/impl/config/util/DbTableUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/service/impl/config/util/ExtendJsonConvert.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/service/impl/config/util/FieldNumComparator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/service/impl/enhance/CgformEnhanceJavaServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/service/impl/enhance/CgformEnhanceJsServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/service/impl/generate/DBTempletLoaderWord.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/service/impl/generate/FormHtmlUtilWord.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/service/impl/generate/TempletContextWord.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/service/impl/upload/CgUploadServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/service/migrate/MigrateForm.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/service/template/CgformTemplateServiceI.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/service/template/impl/CgformTemplateServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/service/upload/CgUploadServiceI.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/sql/config/CgFormFieldDao_getCgFormFieldByTableName.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/sql/config/CgFormFieldDao_getCgFormHiddenFieldByTableName.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/sql/config/CgFormVersionDao_getCgFormById.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/sql/config/CgFormVersionDao_getCgFormVersionById.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/sql/config/CgFormVersionDao_getCgFormVersionByTableName.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/sql/config/CgFormVersionDao_updateVersion.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/sql/upload/CgFormUploadDao_updateBackFileInfo.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/util/PublicUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/util/QueryParamUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/util/SignatureUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/util/TableJson.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/util/TemplateUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgreport/controller/core/CgReportController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgreport/controller/core/CgreportConfigHeadController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgreport/controller/excel/CgExportExcelController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgreport/dao/core/CgReportDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgreport/engine/core/cgreportlist.ftl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgreport/engine/core/cgreportlistpopup.ftl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgreport/entity/core/CgreportConfigHeadEntity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgreport/entity/core/CgreportConfigItemEntity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgreport/entity/core/CgreportConfigParamEntity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgreport/page/core/CgreportConfigHeadPage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgreport/service/core/CgReportServiceI.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgreport/service/core/CgreportConfigHeadServiceI.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgreport/service/impl/core/CgReportServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgreport/service/impl/core/CgreportConfigHeadServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgreport/sql/core/CgReportDao_queryCgReportItems.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgreport/sql/core/CgReportDao_queryCgReportMainConfig.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/controller/UserRestController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/front/AspectTestCase.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/graphreport/controller/GraphReportController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/graphreport/controller/JformGraphreportHeadController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/graphreport/controller/JformGraphreportHeadVMController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/graphreport/engine/core/graphreportlist.ftl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/graphreport/entity/core/JformGraphreportHeadEntity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/graphreport/entity/core/JformGraphreportItemEntity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/graphreport/page/core/JformGraphreportHeadPage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/graphreport/service/core/GraphReportServiceI.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/graphreport/service/core/JformGraphreportHeadServiceI.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/graphreport/service/impl/core/GraphReportServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/graphreport/service/impl/core/JformGraphreportHeadServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/controller/core/CategoryController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/controller/core/CommonController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/controller/core/DataSourceController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/controller/core/DepartController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/controller/core/DuplicateCheckAction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/controller/core/DynamicDataSourceController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/controller/core/FunctionController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/controller/core/IconController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/controller/core/LogController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/controller/core/LoginController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/controller/core/MutiLangController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/controller/core/NoticeAuthorityRoleController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/controller/core/NoticeAuthorityUserController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/controller/core/NoticeController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/controller/core/RoleController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/controller/core/SystemController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/controller/core/TimeTaskController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/controller/core/UserController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/dao/JeecgDictDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/listener/InitListener.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/listener/OnlineListener.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/manager/ClientManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/manager/ClientSort.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/pojo/base/Client.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/pojo/base/DataLogDiff.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/pojo/base/DictEntity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/pojo/base/DuplicateCheckPage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/pojo/base/DynamicDataSourceEntity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/pojo/base/MutiLangEntity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/pojo/base/TSAttachment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/pojo/base/TSBaseUser.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/pojo/base/TSCategoryEntity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/pojo/base/TSDataRule.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/pojo/base/TSDatalogEntity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/pojo/base/TSDepart.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/pojo/base/TSFunction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/pojo/base/TSIcon.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/pojo/base/TSLog.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/pojo/base/TSNotice.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/pojo/base/TSNoticeAuthorityRole.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/pojo/base/TSNoticeAuthorityUser.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/pojo/base/TSNoticeReadUser.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/pojo/base/TSOperation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/pojo/base/TSRole.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/pojo/base/TSRoleFunction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/pojo/base/TSRoleOrg.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/pojo/base/TSRoleUser.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/pojo/base/TSTimeTaskEntity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/pojo/base/TSType.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/pojo/base/TSTypegroup.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/pojo/base/TSUser.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/pojo/base/TSUserOrg.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/service/CategoryServiceI.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/service/DeclareService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/service/DynamicDataSourceServiceI.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/service/LogService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/service/MenuInitService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/service/MutiLangServiceI.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/service/NoticeAuthorityRoleServiceI.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/service/NoticeAuthorityUserServiceI.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/service/NoticeService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/service/SystemService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/service/TimeTaskServiceI.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/service/UserService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/service/impl/CategoryServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/service/impl/DeclareServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/service/impl/DynamicDataSourceServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/service/impl/LogServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/service/impl/MenuInitServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/service/impl/MutiLangServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/service/impl/NoticeAuthorityRoleServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/service/impl/NoticeAuthorityUserServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/service/impl/NoticeServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/service/impl/SystemServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/service/impl/TimeTaskServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/service/impl/UserServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/servlet/RandCodeImageServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/sms/controller/TSSmsController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/sms/controller/TSSmsSqlController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/sms/controller/TSSmsTemplateController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/sms/controller/TSSmsTemplateSqlController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/sms/entity/TSSmsEntity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/sms/entity/TSSmsSqlEntity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/sms/entity/TSSmsTemplateEntity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/sms/entity/TSSmsTemplateSqlEntity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/sms/service/TSSmsServiceI.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/sms/service/TSSmsSqlServiceI.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/sms/service/TSSmsTemplateServiceI.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/sms/service/TSSmsTemplateSqlServiceI.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/sms/service/impl/TSSmsServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/sms/service/impl/TSSmsSqlServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/sms/service/impl/TSSmsTemplateServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/sms/service/impl/TSSmsTemplateSqlServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/sms/util/CMPPSenderUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/sms/util/Constants.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/sms/util/MailUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/sms/util/TuiSongMsgUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/sms/util/XmlResolve.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/sms/util/msg/domain/MsgActiveTestResp.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/sms/util/msg/domain/MsgCommand.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/sms/util/msg/domain/MsgConnect.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/sms/util/msg/domain/MsgConnectResp.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/sms/util/msg/domain/MsgDeliver.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/sms/util/msg/domain/MsgDeliverResp.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/sms/util/msg/domain/MsgHead.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/sms/util/msg/domain/MsgSubmit.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/sms/util/msg/domain/MsgSubmitResp.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/sms/util/msg/util/CmppSender.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/sms/util/msg/util/MsgActivityTimer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/sms/util/msg/util/MsgConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/sms/util/msg/util/MsgContainer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/sms/util/msg/util/MsgUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/sms/util/task/SmsSendTask.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/sms/util/task/SmsSendTaskJob.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/sms/util/webservice/XmlConstant.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/sql/JeecgDictDao_queryCustomDict.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/sql/JeecgDictDao_querySystemDict.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/txt/valid-code-demo.ftl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/util/IconImageUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/util/PackagesToScanUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-entity/src/main/java/cn/brave/entity/JeecgDemoEntity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-entity/src/main/java/cn/brave/entity/JeecgDemoPage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-entity/src/main/java/cn/brave/entity/JeecgLogReport.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-web/src/main/webapp/WEB-INF/tld/easyui.tld" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-web/src/main/webapp/context/layui.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-web/src/main/webapp/context/mytags.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-web/src/main/webapp/webpages/content/plug-in/ueditor/jsp/config.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-web/src/main/webapp/webpages/content/plug-in/ueditor/jsp/error.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-web/src/main/webapp/webpages/content/plug-in/ueditor/jsp/fileUp.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-web/src/main/webapp/webpages/content/plug-in/ueditor/jsp/getContent.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-web/src/main/webapp/webpages/content/plug-in/ueditor/jsp/getMovie.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-web/src/main/webapp/webpages/content/plug-in/ueditor/jsp/getRemoteImage.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-web/src/main/webapp/webpages/content/plug-in/ueditor/jsp/imageManager.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-web/src/main/webapp/webpages/content/plug-in/ueditor/jsp/imageUp.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-web/src/main/webapp/webpages/content/plug-in/ueditor/jsp/scrawlUp.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-web/src/main/webapp/webpages/main/ace_main.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-web/src/main/webapp/webpages/main/ace_main2.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-web/src/main/webapp/webpages/main/acehome.jsp" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_8_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_2_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/util/DateTool.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/multi-web/src/main/java/cn/brave/web/TestController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/multi-web/src/main/java/cn/brave/web/shiro/AuthorityRealm.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/multi-web/src/main/resources/jdbc.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/multi-web/src/main/resources/log4j.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/multi-web/src/main/resources/spring-context.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/multi-web/src/main/resources/spring-mvc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/multi-web/src/main/resources/spring-shiro.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/multi_web_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/multi_web_war_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/multi-web/src/main/java/cn/brave/web/TestController.java" afterPath="$PROJECT_DIR$/multi-web/src/main/java/cn/brave/web/TestController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MultiplePartPRO.iml" afterPath="$PROJECT_DIR$/MultiplePartPRO.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/multi-biz/multi-biz.iml" afterPath="$PROJECT_DIR$/multi-biz/multi-biz.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/multi-biz/src/main/java/cn/brave/service/balance/IUserBalanceService.java" afterPath="$PROJECT_DIR$/multi-biz/src/main/java/cn/brave/service/balance/IUserBalanceService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/multi-biz/src/main/java/cn/brave/service/balance/impl/UserBalanceServiceImpl.java" afterPath="$PROJECT_DIR$/multi-biz/src/main/java/cn/brave/service/balance/impl/UserBalanceServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/multi-core/multi-core.iml" afterPath="$PROJECT_DIR$/multi-core/multi-core.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/multi-dao/multi-dao.iml" afterPath="$PROJECT_DIR$/multi-dao/multi-dao.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/multi-entity/multi-entity.iml" afterPath="$PROJECT_DIR$/multi-entity/multi-entity.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/multi-web/multi-web.iml" afterPath="$PROJECT_DIR$/multi-web/multi-web.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -54,6 +502,12 @@
       <find>maven</find>
       <find>lastIndexOf</find>
       <find>port</find>
+      <find>doBegin</find>
+      <find>QueryCon</find>
+      <find>TSDataR</find>
+      <find>org.jeecgframework.core.common.hibernate.qbc.</find>
+      <find>org.jeecgframework.core.extend.hqlsearch.</find>
+      <find>codegenerate</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -67,31 +521,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/multiweb/pom.xml" />
-        <option value="$PROJECT_DIR$/multi-entity/pom.xml" />
-        <option value="$PROJECT_DIR$/multi-web/src/main/java/cn/brave/web/shiro/AuthorityRealm.java" />
-        <option value="$PROJECT_DIR$/multi-web/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/multi-web/src/main/resources/spring-shiro.xml" />
-        <option value="$PROJECT_DIR$/multi-core/pom.xml" />
-        <option value="$PROJECT_DIR$/multi-web/pom.xml" />
-        <option value="$PROJECT_DIR$/multi-biz/src/main/java/cn/brave/service/balance/impl/UserBalanceServiceImpl.java" />
-        <option value="$PROJECT_DIR$/multi-biz/src/main/java/cn/brave/service/balance/IUserBalanceService.java" />
-        <option value="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/util/DateTool.java" />
-        <option value="$PROJECT_DIR$/multi-biz/pom.xml" />
-        <option value="$PROJECT_DIR$/multi-dao/pom.xml" />
-        <option value="$PROJECT_DIR$/multi-web/src/main/resources/jdbc.properties" />
-        <option value="$PROJECT_DIR$/multi-web/src/main/webapp/index.jsp" />
-        <option value="$PROJECT_DIR$/multi-web/src/main/webapp/plug-in.jsp" />
-        <option value="$PROJECT_DIR$/multi-web/src/main/java/cn/brave/web/anno/OwnAnnotation.java" />
-        <option value="$PROJECT_DIR$/multi-web/src/main/java/cn/brave/web/anno/Upload.java" />
-        <option value="$PROJECT_DIR$/multi-web/src/main/java/cn/brave/web/ApplicationContextWired.java" />
-        <option value="$PROJECT_DIR$/multi-web/src/main/resources/spring-context.xml" />
-        <option value="$PROJECT_DIR$/multi-web/src/main/java/cn/brave/web/anno/UserCenter.java" />
-        <option value="$PROJECT_DIR$/multi-web/src/main/java/cn/brave/web/anno/OwnAnnotationConfigure.java" />
+        <option value="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/extend/swftools/ConStant.java" />
+        <option value="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/extend/swftools/StreamGobbler.java" />
+        <option value="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/extend/hqlsearch/parse/PageValueConvertRuleEnum.java" />
+        <option value="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/extend/hqlsearch/parse/ObjectParseUtil.java" />
+        <option value="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/annotation/query/QueryTimeFormat.java" />
+        <option value="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/extend/hqlsearch/HqlGenerateUtil.java" />
+        <option value="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/util/JeecgDataAutorUtils.java" />
+        <option value="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/common/hibernate/qbc/CriterionList.java" />
+        <option value="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/common/hibernate/qbc/PageList.java" />
+        <option value="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/common/hibernate/qbc/Pager.java" />
+        <option value="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/common/hibernate/qbc/PagerUtil.java" />
+        <option value="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/vo/easyui/Autocomplete.java" />
+        <option value="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/common/hibernate/qbc/CriteriaQuery.java" />
+        <option value="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/common/hibernate/qbc/DetachedCriteriaUtil.java" />
+        <option value="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/common/model/json/DataGrid.java" />
+        <option value="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/common/hibernate/qbc/HqlQuery.java" />
+        <option value="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/common/model/json/TreeGrid.java" />
+        <option value="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/common/model/json/ValidForm.java" />
+        <option value="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/common/model/json/ProjectInfo.java" />
+        <option value="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/common/model/json/ProjectDeclare.java" />
+        <option value="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/common/model/json/LogAnnotation.java" />
+        <option value="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/common/model/json/ImportFile.java" />
+        <option value="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/common/model/json/Highchart.java" />
+        <option value="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/common/model/json/DataGridReturn.java" />
+        <option value="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/common/model/json/ComboTree.java" />
+        <option value="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/common/model/json/ComboBox.java" />
+        <option value="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/common/model/json/AjaxJson.java" />
+        <option value="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/common/service/CommonService.java" />
+        <option value="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/common/hibernate/qbc/AliasToBean.java" />
+        <option value="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgdynamgraph/service/core/CgDynamGraphConfigHeadServiceI.java" />
+        <option value="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/service/SystemService.java" />
+        <option value="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgdynamgraph/controller/CgDynamGraphConfigHeadController.java" />
+        <option value="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/easyui/TagUtil.java" />
+        <option value="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/easyui/ComboBoxTag.java" />
+        <option value="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/common/dao/IGenericBaseCommonDao.java" />
+        <option value="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/common/dao/ICommonDao.java" />
+        <option value="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/common/service/impl/CommonServiceImpl.java" />
+        <option value="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/util/ZipUtil.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/multi-web/src/main/java/cn/brave/web/MailSender.java" />
-        <option value="$PROJECT_DIR$/multi-web/src/main/java/cn/brave/web/TestController.java" />
-        <option value="$PROJECT_DIR$/multi-web/src/main/java/cn/brave/web/MailSenderConfig.java" />
+        <option value="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/enums/SysThemesEnum.java" />
+        <option value="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/enums/SysACEIconEnum.java" />
+        <option value="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/enums/SysDatabaseEnum.java" />
+        <option value="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/service/config/CgFormFieldServiceI.java" />
+        <option value="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/service/button/CgformButtonServiceI.java" />
+        <option value="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/service/button/CgformButtonSqlServiceI.java" />
+        <option value="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/service/enhance/CgformEnhanceJsServiceI.java" />
+        <option value="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/service/impl/generate/TempletContextWord.java" />
+        <option value="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/service/build/DataBaseService.java" />
+        <option value="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/entity/generate/GenerateEntity.java" />
+        <option value="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/controller/generate/GenerateController.java" />
+        <option value="$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/graphreport/service/impl/core/JformGraphreportHeadServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -139,8 +619,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -156,20 +635,25 @@
             <path>
               <item name="MultiplePartPRO" type="b2602c69:ProjectViewProjectNode" />
               <item name="MultiplePartPRO" type="462c0819:PsiDirectoryNode" />
-              <item name="multi-core" type="462c0819:PsiDirectoryNode" />
+              <item name="multi-entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MultiplePartPRO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MultiplePartPRO" type="462c0819:PsiDirectoryNode" />
+              <item name="multi-entity" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MultiplePartPRO" type="b2602c69:ProjectViewProjectNode" />
               <item name="MultiplePartPRO" type="462c0819:PsiDirectoryNode" />
-              <item name="multi-core" type="462c0819:PsiDirectoryNode" />
+              <item name="multi-entity" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MultiplePartPRO" type="b2602c69:ProjectViewProjectNode" />
               <item name="MultiplePartPRO" type="462c0819:PsiDirectoryNode" />
-              <item name="multi-core" type="462c0819:PsiDirectoryNode" />
+              <item name="multi-entity" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -177,7 +661,7 @@
             <path>
               <item name="MultiplePartPRO" type="b2602c69:ProjectViewProjectNode" />
               <item name="MultiplePartPRO" type="462c0819:PsiDirectoryNode" />
-              <item name="multi-core" type="462c0819:PsiDirectoryNode" />
+              <item name="multi-entity" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -186,35 +670,12 @@
             <path>
               <item name="MultiplePartPRO" type="b2602c69:ProjectViewProjectNode" />
               <item name="MultiplePartPRO" type="462c0819:PsiDirectoryNode" />
-              <item name="multi-core" type="462c0819:PsiDirectoryNode" />
+              <item name="multi-entity" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="brave" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MultiplePartPRO" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MultiplePartPRO" type="462c0819:PsiDirectoryNode" />
-              <item name="multi-dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MultiplePartPRO" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MultiplePartPRO" type="462c0819:PsiDirectoryNode" />
-              <item name="multi-entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MultiplePartPRO" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MultiplePartPRO" type="462c0819:PsiDirectoryNode" />
-              <item name="multi-entity" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MultiplePartPRO" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MultiplePartPRO" type="462c0819:PsiDirectoryNode" />
-              <item name="multi-entity" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MultiplePartPRO" type="b2602c69:ProjectViewProjectNode" />
@@ -241,33 +702,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MultiplePartPRO" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MultiplePartPRO" type="462c0819:PsiDirectoryNode" />
-              <item name="multi-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MultiplePartPRO" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MultiplePartPRO" type="462c0819:PsiDirectoryNode" />
-              <item name="multi-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="shiro" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MultiplePartPRO" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MultiplePartPRO" type="462c0819:PsiDirectoryNode" />
-              <item name="multi-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MultiplePartPRO" type="b2602c69:ProjectViewProjectNode" />
@@ -276,6 +710,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MultiplePartPRO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MultiplePartPRO" type="462c0819:PsiDirectoryNode" />
+              <item name="multi-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="context" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MultiplePartPRO" type="b2602c69:ProjectViewProjectNode" />
@@ -288,14 +731,30 @@
             </path>
             <path>
               <item name="MultiplePartPRO" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="MultiplePartPRO" type="462c0819:PsiDirectoryNode" />
+              <item name="multi-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="webpages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MultiplePartPRO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MultiplePartPRO" type="462c0819:PsiDirectoryNode" />
+              <item name="multi-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="webpages" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -303,11 +762,11 @@
     <property name="settings.editor.selected.configurable" value="spring" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15547703" />
     <property name="project.structure.side.proportion" value="0.2667364" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="SearchEverywhereHistoryKey" value="PlatformTransactionManager&#9;FILE&#9;jar://C:/Users/Administrator.SKY-20170729FSC/.m2/repository/org/springframework/spring-tx/4.2.7.RELEASE/spring-tx-4.2.7.RELEASE.jar!/org/springframework/transaction/PlatformTransactionManager.class&#10;TransactionInterceptor&#9;FILE&#9;jar://C:/Users/Administrator.SKY-20170729FSC/.m2/repository/org/springframework/spring-tx/4.2.7.RELEASE/spring-tx-4.2.7.RELEASE.jar!/org/springframework/transaction/interceptor/TransactionInterceptor.class&#10;Autowired&#9;FILE&#9;jar://C:/Users/Administrator.SKY-20170729FSC/.m2/repository/org/springframework/spring-beans/4.2.7.RELEASE/spring-beans-4.2.7.RELEASE.jar!/org/springframework/beans/factory/annotation/AutowiredAnnotationBeanPostProcessor.class&#10;BeanDefinitionRegistry&#9;FILE&#9;jar://C:/Users/Administrator.SKY-20170729FSC/.m2/repository/org/springframework/spring-beans/4.2.7.RELEASE/spring-beans-4.2.7.RELEASE.jar!/org/springframework/beans/factory/support/BeanDefinitionRegistry.class&#10;Autowire&#9;FILE&#9;jar://C:/Users/Administrator.SKY-20170729FSC/.m2/repository/org/springframework/spring-beans/4.2.7.RELEASE/spring-beans-4.2.7.RELEASE.jar!/org/springframework/beans/factory/annotation/Autowire.class&#10;ClassPathBeanDefinitionScanner&#9;FILE&#9;jar://C:/Users/Administrator.SKY-20170729FSC/.m2/repository/org/springframework/spring-context/4.2.7.RELEASE/spring-context-4.2.7.RELEASE.jar!/org/springframework/context/annotation/ClassPathBeanDefinitionScanner.class" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../NO_010/jide" />
+    <property name="SearchEverywhereHistoryKey" value="TransactionAspect&#9;FILE&#9;jar://C:/Users/Administrator.SKY-20170729FSC/.m2/repository/org/springframework/spring-tx/4.2.7.RELEASE/spring-tx-4.2.7.RELEASE.jar!/org/springframework/transaction/interceptor/TransactionAspectSupport.class&#10;Import&#9;PSI&#9;JAVA://org.springframework.context.annotation.Import&#10;PlatformTransactionManager&#9;FILE&#9;jar://C:/Users/Administrator.SKY-20170729FSC/.m2/repository/org/springframework/spring-tx/4.2.7.RELEASE/spring-tx-4.2.7.RELEASE.jar!/org/springframework/transaction/PlatformTransactionManager.class&#10;TransactionInterceptor&#9;FILE&#9;jar://C:/Users/Administrator.SKY-20170729FSC/.m2/repository/org/springframework/spring-tx/4.2.7.RELEASE/spring-tx-4.2.7.RELEASE.jar!/org/springframework/transaction/interceptor/TransactionInterceptor.class&#10;Autowired&#9;FILE&#9;jar://C:/Users/Administrator.SKY-20170729FSC/.m2/repository/org/springframework/spring-beans/4.2.7.RELEASE/spring-beans-4.2.7.RELEASE.jar!/org/springframework/beans/factory/annotation/AutowiredAnnotationBeanPostProcessor.class&#10;BeanDefinitionRegistry&#9;FILE&#9;jar://C:/Users/Administrator.SKY-20170729FSC/.m2/repository/org/springframework/spring-beans/4.2.7.RELEASE/spring-beans-4.2.7.RELEASE.jar!/org/springframework/beans/factory/support/BeanDefinitionRegistry.class&#10;Autowire&#9;FILE&#9;jar://C:/Users/Administrator.SKY-20170729FSC/.m2/repository/org/springframework/spring-beans/4.2.7.RELEASE/spring-beans-4.2.7.RELEASE.jar!/org/springframework/beans/factory/annotation/Autowire.class&#10;ClassPathBeanDefinitionScanner&#9;FILE&#9;jar://C:/Users/Administrator.SKY-20170729FSC/.m2/repository/org/springframework/spring-context/4.2.7.RELEASE/spring-context-4.2.7.RELEASE.jar!/org/springframework/context/annotation/ClassPathBeanDefinitionScanner.class" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -317,9 +776,11 @@
       <recent name="cn.brave.web.shiro" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IDEWorkSpace\NO_008\MultiplePartPRO\multi-core\src\main\java\cn\brave\tags\core" />
+      <recent name="D:\IDEWorkSpace\NO_008\MultiplePartPRO\multi-core\src\main\java\cn\brave\tags" />
+      <recent name="D:\IDEWorkSpace\NO_008\MultiplePartPRO\multi-core\src\main\java\cn\brave\web" />
       <recent name="D:\IDEWorkSpace\NO_008\MultiplePartPRO\multi-entity\src\main\java\cn\brave\entity" />
-      <recent name="D:\IDEWorkSpace\NO_008\MultiplePartPRO\multi-dao\src\main\java\cn\brave\dao\mappers\balance" />
-      <recent name="D:\IDEWorkSpace\NO_008\MultiplePartPRO\multi-web\src\main\resources" />
+      <recent name="D:\IDEWorkSpace\NO_008\MultiplePartPRO\multi-core\src\main\java\cn\brave\tags\core\util" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -334,7 +795,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Tomcat Server.Multiple-Web-Tomcat">
     <configuration name="Multiple-Web-Tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.35" ALTERNATIVE_JRE_ENABLED="false">
       <deployment>
         <artifact name="multi-web:war exploded">
@@ -504,45 +965,48 @@
       <workItem from="1509970664451" duration="5223000" />
       <workItem from="1510014619294" duration="996000" />
       <workItem from="1510100927022" duration="9083000" />
-      <workItem from="1510125398663" duration="3428000" />
+      <workItem from="1510125398663" duration="3508000" />
+      <workItem from="1510146835091" duration="643000" />
+      <workItem from="1510187472549" duration="13882000" />
+      <workItem from="1510211203230" duration="7875000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40314000" />
+    <option name="totallyTimeSpent" value="62794000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5030257" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.4969743" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7359098" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3188406" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25718608" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39291465" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.4969743" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7359098" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3188406" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34266263" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39774558" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329582" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -551,7 +1015,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5030257" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -561,19 +1025,19 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39774558" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39291465" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.4969743" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7359098" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32045087" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25340393" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3188406" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34266263" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329582" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -606,329 +1070,304 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.2.7.RELEASE/spring-beans-4.2.7.RELEASE.jar!/org/springframework/beans/factory/config/BeanFactoryPostProcessor.class">
+    <entry file="file://$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/vo/datatable/SortInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.2.7.RELEASE/spring-core-4.2.7.RELEASE.jar!/org/springframework/core/io/PathResource.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1151">
-          <caret line="25" column="23" lean-forward="false" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/multi-web/src/main/java/cn/brave/web/ApplicationContextWired.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.2.7.RELEASE/spring-core-4.2.7.RELEASE.jar!/org/springframework/core/io/Resource.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/multi-web/src/main/java/cn/brave/web/anno/Upload.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.2.7.RELEASE/spring-beans-4.2.7.RELEASE.jar!/org/springframework/beans/factory/support/BeanDefinitionRegistry.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/1.2.2/mybatis-spring-1.2.2.jar!/org/mybatis/spring/SqlSessionFactoryBean.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="77" column="5" lean-forward="false" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.2.7.RELEASE/spring-beans-4.2.7.RELEASE.jar!/org/springframework/beans/factory/annotation/Autowired.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="18" column="1" lean-forward="false" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.2.7.RELEASE/spring-beans-4.2.7.RELEASE.jar!/org/springframework/beans/factory/config/InstantiationAwareBeanPostProcessorAdapter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-57">
-          <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.2.7.RELEASE/spring-beans-4.2.7.RELEASE.jar!/org/springframework/beans/factory/config/BeanPostProcessor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="9" column="36" lean-forward="true" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.2.7.RELEASE/spring-beans-4.2.7.RELEASE.jar!/org/springframework/beans/factory/support/MergedBeanDefinitionPostProcessor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="9" column="71" lean-forward="true" selection-start-line="9" selection-start-column="71" selection-end-line="9" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.2.7.RELEASE/spring-beans-4.2.7.RELEASE.jar!/org/springframework/beans/factory/support/BeanDefinitionRegistryPostProcessor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.2.7.RELEASE/spring-beans-4.2.7.RELEASE-sources.jar!/org/springframework/beans/factory/annotation/Autowired.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.2.7.RELEASE/spring-beans-4.2.7.RELEASE-sources.jar!/org/springframework/beans/factory/support/BeanDefinitionRegistryPostProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="32" column="65" lean-forward="true" selection-start-line="32" selection-start-column="65" selection-end-line="32" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.2.7.RELEASE/spring-beans-4.2.7.RELEASE-sources.jar!/org/springframework/beans/factory/config/BeanFactoryPostProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="46" column="7" lean-forward="true" selection-start-line="46" selection-start-column="7" selection-end-line="46" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.2.7.RELEASE/spring-beans-4.2.7.RELEASE-sources.jar!/org/springframework/beans/factory/support/BeanDefinitionRegistry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="40" column="26" lean-forward="true" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.2.7.RELEASE/spring-beans-4.2.7.RELEASE-sources.jar!/org/springframework/beans/factory/annotation/CustomAutowireConfigurer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="56" column="0" lean-forward="true" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.2.7.RELEASE/spring-beans-4.2.7.RELEASE-sources.jar!/org/springframework/beans/factory/annotation/RequiredAnnotationBeanPostProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="82" column="36" lean-forward="false" selection-start-line="82" selection-start-column="36" selection-end-line="82" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.2.7.RELEASE/spring-beans-4.2.7.RELEASE.jar!/org/springframework/beans/factory/annotation/AutowiredAnnotationBeanPostProcessor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="65" column="0" lean-forward="true" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.2.7.RELEASE/spring-beans-4.2.7.RELEASE-sources.jar!/org/springframework/beans/BeanUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="146" column="0" lean-forward="false" selection-start-line="146" selection-start-column="0" selection-end-line="146" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.2.7.RELEASE/spring-beans-4.2.7.RELEASE-sources.jar!/org/springframework/beans/factory/support/SimpleInstantiationStrategy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="88" column="0" lean-forward="false" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.2.7.RELEASE/spring-beans-4.2.7.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="485" column="0" lean-forward="false" selection-start-line="485" selection-start-column="0" selection-end-line="485" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.2.7.RELEASE/spring-context-4.2.7.RELEASE.jar!/org/springframework/context/support/PostProcessorRegistrationDelegate.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2945">
-          <caret line="185" column="28" lean-forward="false" selection-start-line="185" selection-start-column="28" selection-end-line="185" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/Java/jdk1.8/src.zip!/java/lang/Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66975">
-          <caret line="3634" column="22" lean-forward="false" selection-start-line="3634" selection-start-column="22" selection-end-line="3634" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/Java/jdk1.8/src.zip!/java/lang/reflect/AnnotatedType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="35" column="30" lean-forward="false" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/multi-web/src/main/java/cn/brave/web/anno/OwnAnnotation.java" />
-    <entry file="file://$PROJECT_DIR$/multi-web/src/main/java/cn/brave/web/anno/UserCenter.java" />
-    <entry file="file://$PROJECT_DIR$/multi-web/src/main/java/cn/brave/web/anno/OwnAnnotationConfigure.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="159" column="20" lean-forward="false" selection-start-line="159" selection-start-column="20" selection-end-line="159" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.2.7.RELEASE/spring-beans-4.2.7.RELEASE-sources.jar!/org/springframework/beans/factory/annotation/AutowiredAnnotationBeanPostProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="108" column="22" lean-forward="false" selection-start-line="108" selection-start-column="22" selection-end-line="108" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.2.7.RELEASE/spring-context-4.2.7.RELEASE-sources.jar!/org/springframework/context/support/PostProcessorRegistrationDelegate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="931">
-          <caret line="91" column="63" lean-forward="false" selection-start-line="91" selection-start-column="63" selection-end-line="91" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/Java/jdk1.8/src.zip!/java/lang/Character.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="548" column="7" lean-forward="true" selection-start-line="548" selection-start-column="7" selection-end-line="548" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/Java/jdk1.8/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-427">
-          <caret line="1647" column="51" lean-forward="true" selection-start-line="1647" selection-start-column="51" selection-end-line="1647" selection-end-column="51" />
+        <state relative-caret-position="573">
+          <caret line="36" column="25" lean-forward="false" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
           <folding>
-            <element signature="e#62860#62861#0" expanded="false" />
-            <element signature="e#62916#62917#0" expanded="false" />
-            <element signature="e#70749#70750#0" expanded="false" />
-            <element signature="e#70802#70803#0" expanded="false" />
+            <element signature="e#509#510#0" expanded="true" />
+            <element signature="e#532#533#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/Java/jdk1.8/src.zip!/java/lang/Math.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="1335" column="0" lean-forward="false" selection-start-line="1335" selection-start-column="0" selection-end-line="1335" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/Java/jdk1.8/src.zip!/java/beans/Introspector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="318" column="6" lean-forward="true" selection-start-line="318" selection-start-column="6" selection-end-line="318" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.2.7.RELEASE/spring-beans-4.2.7.RELEASE-sources.jar!/org/springframework/beans/factory/support/DefaultSingletonBeanRegistry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="76" column="31" lean-forward="true" selection-start-line="76" selection-start-column="31" selection-end-line="76" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.2.7.RELEASE/spring-beans-4.2.7.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="158" column="35" lean-forward="true" selection-start-line="158" selection-start-column="35" selection-end-line="158" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context-support/4.2.7.RELEASE/spring-context-support-4.2.7.RELEASE.jar!/org/springframework/mail/javamail/JavaMailSenderImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1615">
-          <caret line="138" column="20" lean-forward="false" selection-start-line="138" selection-start-column="19" selection-end-line="138" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/multi-web/src/main/java/cn/brave/web/MailSenderConfig.java" />
-    <entry file="file://$PROJECT_DIR$/multi-web/src/main/java/cn/brave/web/TestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="24" column="19" lean-forward="false" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context-support/4.2.7.RELEASE/spring-context-support-4.2.7.RELEASE.jar!/org/springframework/mail/SimpleMailMessage.class">
+    <entry file="file://$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/common/hibernate/qbc/CriteriaQuery.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="608">
-          <caret line="40" column="18" lean-forward="false" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/4.2.7.RELEASE/spring-tx-4.2.7.RELEASE.jar!/org/springframework/transaction/interceptor/TransactionInterceptor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-247">
-          <caret line="20" column="37" lean-forward="true" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/multi-web/src/main/resources/spring-context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1178">
-          <caret line="62" column="20" lean-forward="false" selection-start-line="62" selection-start-column="20" selection-end-line="62" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/4.2.7.RELEASE/spring-tx-4.2.7.RELEASE.jar!/org/springframework/transaction/TransactionStatus.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/4.2.7.RELEASE/spring-tx-4.2.7.RELEASE.jar!/org/springframework/transaction/config/spring-tx-4.2.xsd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="51" column="32" lean-forward="false" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/4.2.7.RELEASE/spring-tx-4.2.7.RELEASE.jar!/org/springframework/transaction/PlatformTransactionManager.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="40" lean-forward="false" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/4.2.7.RELEASE/spring-tx-4.2.7.RELEASE-sources.jar!/org/springframework/transaction/PlatformTransactionManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="43" column="43" lean-forward="false" selection-start-line="43" selection-start-column="43" selection-end-line="43" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context-support/4.2.7.RELEASE/spring-context-support-4.2.7.RELEASE-sources.jar!/org/springframework/mail/javamail/JavaMailSenderImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="45" column="68" lean-forward="true" selection-start-line="45" selection-start-column="68" selection-end-line="45" selection-end-column="68" />
+          <caret line="374" column="30" lean-forward="true" selection-start-line="374" selection-start-column="30" selection-end-line="374" selection-end-column="30" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context-support/4.2.7.RELEASE/spring-context-support-4.2.7.RELEASE-sources.jar!/org/springframework/mail/SimpleMailMessage.java">
+    <entry file="file://$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/common/hibernate/qbc/CriterionList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/common/hibernate/qbc/DetachedCriteriaUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="173" column="34" lean-forward="false" selection-start-line="173" selection-start-column="34" selection-end-line="173" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/common/hibernate/qbc/PageList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/common/hibernate/qbc/HqlQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-171">
+          <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/common/model/json/TreeGrid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="44" lean-forward="false" selection-start-line="0" selection-start-column="44" selection-end-line="0" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/common/model/json/ValidForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="44" lean-forward="true" selection-start-line="0" selection-start-column="44" selection-end-line="0" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/common/model/json/ProjectInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="44" lean-forward="true" selection-start-line="0" selection-start-column="44" selection-end-line="0" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/common/model/json/ProjectDeclare.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="44" lean-forward="false" selection-start-line="0" selection-start-column="44" selection-end-line="0" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/common/model/json/LogAnnotation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="44" lean-forward="false" selection-start-line="0" selection-start-column="44" selection-end-line="0" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/common/model/json/ImportFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="44" lean-forward="true" selection-start-line="0" selection-start-column="44" selection-end-line="0" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/common/model/json/Highchart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="44" lean-forward="false" selection-start-line="0" selection-start-column="44" selection-end-line="0" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/common/model/json/DataGridReturn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="44" lean-forward="true" selection-start-line="0" selection-start-column="44" selection-end-line="0" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/common/model/json/DataGrid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1121">
+          <caret line="83" column="63" lean-forward="false" selection-start-line="83" selection-start-column="63" selection-end-line="83" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/common/model/json/ComboTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="44" lean-forward="true" selection-start-line="0" selection-start-column="44" selection-end-line="0" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/common/model/json/ComboBox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="44" lean-forward="false" selection-start-line="0" selection-start-column="44" selection-end-line="0" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/common/model/json/AjaxJson.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="44" lean-forward="true" selection-start-line="0" selection-start-column="44" selection-end-line="0" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/common/service/CommonService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3477">
+          <caret line="183" column="25" lean-forward="false" selection-start-line="183" selection-start-column="25" selection-end-line="183" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/common/hibernate/qbc/AliasToBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgdynamgraph/entity/core/CgDynamGraphConfigHeadEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/exception/BusinessException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="11" lean-forward="false" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+          <folding>
+            <element signature="e#161#162#0" expanded="true" />
+            <element signature="e#180#181#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgdynamgraph/service/core/CgDynamGraphConfigHeadServiceI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="10" column="69" lean-forward="false" selection-start-line="10" selection-start-column="69" selection-end-line="10" selection-end-column="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/system/service/SystemService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1349">
+          <caret line="103" column="55" lean-forward="false" selection-start-line="103" selection-start-column="55" selection-end-line="103" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/easyui/TagUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11761">
+          <caret line="621" column="72" lean-forward="false" selection-start-line="621" selection-start-column="72" selection-end-line="621" selection-end-column="72" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#16771#16781#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgdynamgraph/controller/CgDynamGraphConfigHeadController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="99" column="19" lean-forward="false" selection-start-line="99" selection-start-column="19" selection-end-line="99" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/easyui/ComboBoxTag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="49" column="38" lean-forward="false" selection-start-line="49" selection-start-column="38" selection-end-line="49" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/common/dao/IGenericBaseCommonDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3781">
+          <caret line="0" column="37" lean-forward="true" selection-start-line="0" selection-start-column="37" selection-end-line="0" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/common/dao/ICommonDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="66" column="62" lean-forward="false" selection-start-line="66" selection-start-column="62" selection-end-line="66" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/common/service/impl/CommonServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-589">
+          <caret line="353" column="47" lean-forward="false" selection-start-line="353" selection-start-column="47" selection-end-line="353" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/util/ZipUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-133">
+          <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MultiplePartPRO.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="10" column="30" lean-forward="false" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="490" column="46" lean-forward="false" selection-start-line="490" selection-start-column="46" selection-end-line="490" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/enums/OnlineGenerateEnum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -936,21 +1375,160 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/4.2.7.RELEASE/spring-tx-4.2.7.RELEASE-sources.jar!/org/springframework/transaction/interceptor/TransactionInterceptor.java">
+    <entry file="file://$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/enums/SysACEIconEnum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="45" column="28" lean-forward="true" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
+        <state relative-caret-position="117">
+          <caret line="70" column="22" lean-forward="false" selection-start-line="70" selection-start-column="22" selection-end-line="70" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/4.2.7.RELEASE/spring-tx-4.2.7.RELEASE-sources.jar!/org/springframework/transaction/jta/JtaTransactionManager.java">
+    <entry file="file://$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/enums/SysDatabaseEnum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="835">
-          <caret line="273" column="0" lean-forward="true" selection-start-line="273" selection-start-column="0" selection-end-line="273" selection-end-column="0" />
+        <state relative-caret-position="228">
+          <caret line="63" column="22" lean-forward="false" selection-start-line="63" selection-start-column="22" selection-end-line="63" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multi-core/src/main/java/cn/brave/tags/core/enums/SysThemesEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-57">
+          <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/service/config/CgFormFieldServiceI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="72" column="40" lean-forward="false" selection-start-line="72" selection-start-column="40" selection-end-line="72" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#6356#6383#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/service/button/CgformButtonServiceI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-92">
+          <caret line="12" column="59" lean-forward="false" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/service/button/CgformButtonSqlServiceI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="8" column="61" lean-forward="true" selection-start-line="8" selection-start-column="61" selection-end-line="8" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/service/enhance/CgformEnhanceJsServiceI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="62" lean-forward="false" selection-start-line="6" selection-start-column="62" selection-end-line="6" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/service/impl/generate/TempletContextWord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="39" lean-forward="true" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/service/build/DataBaseService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="42" column="39" lean-forward="false" selection-start-line="42" selection-start-column="39" selection-end-line="42" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jeecgframework/codegenerate/3.6.1-SNAPSHOT/codegenerate-3.6.1-20170114.034704-3.jar!/org/jeecgframework/codegenerate/pojo/CreateFileProperty.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jeecgframework/codegenerate/3.6.1-SNAPSHOT/codegenerate-3.6.1-20170114.034704-3.jar!/org/jeecgframework/codegenerate/pojo/onetomany/CodeParamEntity.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jeecgframework/codegenerate/3.6.1-SNAPSHOT/codegenerate-3.6.1-20170114.034704-3.jar!/org/jeecgframework/codegenerate/pojo/onetomany/SubTableEntity.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/entity/generate/GenerateEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jeecgframework/codegenerate/3.6.1-SNAPSHOT/codegenerate-3.6.1-20170114.034704-3.jar!/org/jeecgframework/codegenerate/generate/onetomany/CgformCodeGenerateOneToMany.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="31" column="13" lean-forward="false" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jeecgframework/codegenerate/3.6.1-SNAPSHOT/codegenerate-3.6.1-20170114.034704-3.jar!/org/jeecgframework/codegenerate/generate/CgformCodeGenerate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1463">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/cgform/controller/generate/GenerateController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="180" column="96" lean-forward="false" selection-start-line="180" selection-start-column="96" selection-end-line="180" selection-end-column="96" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4071#4089#0" expanded="true" />
+            <element signature="e#5719#5739#0" expanded="true" />
+            <element signature="e#9335#9358#0" expanded="true" />
+            <element signature="e#13993#14026#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multi-core/src/main/java/cn/brave/web/graphreport/service/impl/core/JformGraphreportHeadServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="18" column="59" lean-forward="false" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -989,7 +1567,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.2667364" />
               </list>
             </option>
           </splitter-proportions>
@@ -1009,11 +1587,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>multi-entity</last-edited>
+          <last-edited>multi-web</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2667364" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

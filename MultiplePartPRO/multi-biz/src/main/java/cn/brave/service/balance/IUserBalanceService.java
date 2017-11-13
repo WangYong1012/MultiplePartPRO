@@ -2,6 +2,7 @@ package cn.brave.service.balance;
 
 import cn.brave.entity.JcUserBalance;
 
+import java.sql.SQLException;
 import java.util.List;
 
 /**
@@ -13,4 +14,6 @@ public interface IUserBalanceService
 {
     
     List<JcUserBalance> getList();
+
+    int insertBalances(List<JcUserBalance> jcUserBalances) throws SQLException;
 }
